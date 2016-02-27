@@ -53,13 +53,13 @@ proc getrig {rig} {
     set link [lindex $fields 3]
     set manualpdf [lindex $fields 4]
 
+    set re {^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,\"([^\"]*)\"$}
+    regexp $re $line -> desc
+
     if {[string match -nocase "*${rig}*" $model]} {
       close $csvfile
       return "$manuf $model: $desc"
     }
-
-    set re {^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,\"([^\"]*)\"$}
-    regexp $re $line -> desc
 
     if {[regexp -nocase -- $rxp $rig]} {
       close $csvfile
