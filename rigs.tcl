@@ -41,6 +41,10 @@ proc getrig {rig} {
       continue;
     }
 
+    if {[regexp -- {^\s*$} $line]} {
+      continue;
+    }
+
     set fields [split $line ","]
 
     set rxp [lindex $fields 0]
