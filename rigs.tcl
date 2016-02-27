@@ -53,8 +53,10 @@ proc getrig {rig} {
     regexp $re $line -> desc
 
     if {[regexp -nocase -- $rxp $rig]} {
+      close $csvfile
       return "$manuf $model: $desc"
     }
   }
   close $csvfile
+  return "not found"
 }
