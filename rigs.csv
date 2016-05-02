@@ -11,3 +11,6 @@ ic-2200,Icom,IC-2200H,,,"2m FM mobile, d-star optional, 65W; 2004; first d-star 
 ic-2300,Icom,IC-2300H,,,"2m FM mobile, 65W; 2012"
 ft-817,Yaesu,FT-817ND,,,"160m-10m, 6m/2m/440; CW/SSB/AM/FM; portable; QRP 5W ext/2.5W batt; 2000"
 ft-736,Yaesu,FT-736R,,,"2m/440 CW/SSB/FM; optional 6m, 220, 1.2GHz; base; 25W, 6m@15W, 1.2GHz@10W; CAT; 1987"
+ic-7300,Icom,IC-7300,,,"160-4m CW/SSB/AM/FM/RTTY; direct sampling SDR; tuner; 4m @ 50W; 2015"
+ic-251,Icom,IC-251A/E,,,"2m CW/SSB/FM; 10W; AC; SWR mtrb 1980"
+tm-321,Kenwood,TM-321A,,,"220 MHz FM mobile, 25W, 1987"
