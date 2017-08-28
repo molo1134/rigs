@@ -1,6 +1,7 @@
 #regexp,manuf,model,link,manualpdf,desc
 sr8[te]?,Alinco,DX-SR8T/E,http://www.alinco.com/Products/ham/hf/DX-SR8/,,"160-10m CW/SSB/AM/FM; 100W; 2009"
 sr9[te]?,Alinco,DX-SR9T/E,http://www.alinco.com/Products/ham/hf/DX-SR9/,,"160-10m CW/SSB/AM/FM; SDR I/Q output; 100W; 2014"
+dj-g29t?,Alinco,DJ-G29T,,,"220/900 FM HT; x-band rpt; only field-programmable 900 MHz HT made; 5W 220, 2.5W 900; 2011"
 kx2,Elecraft,KX2,,,"80m-10m CW/SSB/DATA transceiver; 10W; portable; 2016"
 kx3,Elecraft,KX3,,,"160m-6m CW/SSB/DATA/AM/FM transceiver; 12W; portable; 2011"
 ic-251,Icom,IC-251A/E,,,"2m CW/SSB/FM; 10W; AC; SWR mtrb 1980"
