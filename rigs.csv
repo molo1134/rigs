@@ -67,7 +67,7 @@ ts-430,Kenwood,TS-430S,,,"160-10m w/ WARC, gen. coverage RX; CW/SSB/AM, FM (opti
 ts-440,Kenwood,TS-440S,,,"160-10m w/ WARC, gen. coverage RX; CW/SSB/AM/FM/FSK; CAT; 1986; beware 'dots problem'"
 ts-480(sat)?$,Kenwood,TS-480SAT,,,"160-6m; CW/SSB/AM/FM/FSK; 100W; 2004"
 ts-480hx,Kenwood,TS-480HX,,,"160-6m; CW/SSB/AM/FM/FSK; 200W HF, 100W 6m; 2004"
-ts-520,Kenwood,TS-520,,,""80-10m w/warc; CW/SSB, hybrid design, 220w PEP input to 6146 finals"
+ts-520,Kenwood,TS-520,,,"80-10m w/warc; CW/SSB, hybrid design, 220w PEP input to 6146 finals"
 ts-530s,Kenwood,TS-530S,,,"160-10m w/WARC; CW/SSB; hybrid design; 220W DC input to 2x 6146B finals"
 ts-590s,Kenwood,TS-590S,,,"160-6m, CW/SSB/AM/FM/FSK; 100W; IF DSP; USB iface; 2011"
 ts-590sg,Kenwood,TS-590SG,,,"160-6m, CW/SSB/AM/FM/FSK; 100W; IF DSP; USB iface; 2015"
