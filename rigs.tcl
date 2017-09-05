@@ -67,5 +67,5 @@ proc getrig {rig} {
     }
   }
   close $csvfile
-  return "not found"
+  return "not found; pull requests accepted: http://github.com/molo1134/rigs/"
 }
