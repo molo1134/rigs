@@ -109,7 +109,7 @@ ft-?817,Yaesu,FT-817ND,,,"160m-10m, 6m/2m/440; CW/SSB/AM/FM; portable; QRP 5W ex
 ft-?857,Yaesu,FT-857D,,,"160m-10m, 6m/2m/440; CW/SSB/AM/FM; mobile; AF DSP; 100W; 2000"
 ft-?891,Yaesu,FT-891,,,"160-6m, CW/SSB/AM/FM; mobile; 100W; IF DSP; USB CAT, but no USB audio; 2016"
 ft-?897,Yaesu,FT-897D,,,"160m-10m, 6m/2m/440; CW/SSB/AM/FM; lugabble; AF DSP; opt. batt, or power supply; opt. bolt-on tuner; 100W; 2000"
-ft-?dx[ -]?1200,Yaesu FX-DX 1200,,,"160-6m; CW/SSB/FSK/PSK/FM/AM; IF DSP; tuner; opt. FFT, filter, recorder boards; 100W; 2013"
+ft-?dx[ -]?1200,Yaesu,FT-DX 1200,,,"160-6m; CW/SSB/FSK/PSK/FM/AM; IF DSP; tuner; opt. FFT, filter, recorder boards; 100W; 2013"
 vx-?7,Yaesu,VX-7R,,,"6m/2m/220/440 FM HT; dual RX; wide RX, AM RX; 220 @ 300mW"
 vx-?8,Yaesu,VX-8DR,,,"6m/2m/220/440 FM HT; APRS; opt. GPS; dual RX; wide RX, AM RX; 5W 6m/2m/440, 1.5W 220"
 hb-?1b,Youkits,HB-1B,,,"4 Band 5w QRP CW transceiver"
