@@ -50,7 +50,7 @@ ic-?970[aeh]?$,Icom,IC-970A/E/H,,,"2m/440 CW/SSB/AM/FM; up to 45W; optional 1.2G
 ic-?2100,Icom,IC-2100H,,,"2m FM mobile, 55W; 1997"
 ic-?2200,Icom,IC-2200H,,,"2m FM mobile, d-star optional, 65W; 2004; first d-star hardware"
 ic-?2300,Icom,IC-2300H,,,"2m FM mobile, 65W; 2012"
-ic-?7100,Icom,IC-7100,http://www.icomamerica.com/en/products/amateur/hf/7100/,,"160-2m,440, all-mode+D-star, 100W; remote head; touch screen; USB iface; 2014"
+ic-?7100,Icom,IC-7100,http://www.icomamerica.com/en/products/amateur/hf/7100/,,"160-2m,4m,440, all-mode+D-star, 100W; remote head; touch screen; USB iface; 2014"
 ic-?7200,Icom,IC-7200,http://www.icomamerica.com/en/products/amateur/hf/7200/,,"160-10m,6m, CW/SSB/FSK/AM 100W; USB iface; 2009"
 ic-?7300,Icom,IC-7300,http://www.icomamerica.com/en/products/amateur/hf/7300/,,"160-4m CW/SSB/AM/FM/RTTY; direct sampling SDR; tuner; 4m @ 50W; 2015"
 ic-?7600,Icom,IC-7600,http://www.icomamerica.com/en/products/amateur/hf/7600/,,"160-6m CW/SSB/AM/FM/RTTY/PSK31; 100W; 2009"
