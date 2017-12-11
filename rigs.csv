@@ -92,7 +92,7 @@ tr-?9130,Kenwood,TR-9130,,,"2m CW/SSB/FM; no CTCSS, but socket for 3rd party; 25
 ts-?50,Kenwood,TS-50S,,,"160-10m; CW/SSB/AM/FM; mobile form; 1993"
 ts-?60,Kenwood,TS-60S,,,"6m; CW/SSB/AM/FM; 90W; mobile form; 1994"
 ts-?430,Kenwood,TS-430S,,,"160-10m w/ WARC, gen. coverage RX; CW/SSB/AM, FM (option); no CAT; 1984"
-ts-?440,Kenwood,TS-440S,,,"160-10m w/ WARC, gen. coverage RX; CW/SSB/AM/FM/FSK; CAT; 1986; beware 'dots problem'"
+ts-?440,Kenwood,TS-440S,,,"160-10m w/ WARC, gen. coverage RX; CW/SSB/AM/FM/AFSK; CAT; 1986; beware 'dots problem'"
 ts-?450,Kenwood,TS-450S,,,"160-10m w/ WARC, gen. coverage RX; CW/SSB/AM/FM/FSK; CAT; 1988; watch for bad caps in the IF board"
 ts-?480hx,Kenwood,TS-480HX,,,"160-6m; CW/SSB/AM/FM/FSK; 200W HF, 100W 6m; 2004"
 ts-?480(sat)?$,Kenwood,TS-480SAT,,,"160-6m; CW/SSB/AM/FM/FSK; 100W; 2004"
