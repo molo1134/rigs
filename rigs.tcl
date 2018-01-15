@@ -6,23 +6,25 @@ set rigscsv "rigs.csv"
 
 proc rig_msg {nick uhand handle input} {
   set rig [sanitize_string [string trim ${input}]]
+  set rig [encoding convertfrom utf-8 ${rig}]
   putlog "rig msg: $nick $uhand $handle $rig"
   set output [getrig $rig]
   set output [split $output "\n"]
 
   foreach line $output {
-    putmsg $nick "$line"
+    putmsg $nick [encoding convertto utf-8 "$line"]
   }
 }
 
 proc rig_pub { nick host hand chan text } {
   set rig [sanitize_string [string trim ${text}]]
+  set rig [encoding convertfrom utf-8 ${rig}]
   putlog "rig pub: $nick $host $hand $chan $rig"
   set output [getrig $rig]
   set output [split $output "\n"]
 
   foreach line $output {
-    putchan $chan "$line"
+    putchan $chan [encoding convertto utf-8 "$line"]
   }
 }
 
@@ -35,7 +37,7 @@ proc getrig {rig} {
 
   set csvfile [open $rigscsv r]
   while {![eof $csvfile]} {
-    set line [gets $csvfile]
+    set line [encoding convertfrom utf-8 [gets $csvfile]]
 
     if {[regexp -- {^#} $line]} {
       continue;
