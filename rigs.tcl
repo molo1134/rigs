@@ -12,7 +12,13 @@ proc rig_msg {nick uhand handle input} {
   set output [split $output "\n"]
 
   foreach line $output {
-    putmsg $nick [encoding convertto utf-8 "$line"]
+    if { [string match -nocase "*potato*" $line] } {
+      # this is a hack to work around tcl's lack of support for unicode above
+      # U+FFFF.
+      putmsg $nick "$line"
+    } else {
+      putmsg $nick [encoding convertto utf-8 "$line"]
+    }
   }
 }
 
@@ -24,7 +30,13 @@ proc rig_pub { nick host hand chan text } {
   set output [split $output "\n"]
 
   foreach line $output {
-    putchan $chan [encoding convertto utf-8 "$line"]
+    if { [string match -nocase "*potato*" $line] } {
+      # this is a hack to work around tcl's lack of support for unicode above
+      # U+FFFF.
+      putchan $chan "$line"
+    } else {
+      putchan $chan [encoding convertto utf-8 "$line"]
+    }
   }
 }
 
@@ -37,7 +49,14 @@ proc getrig {rig} {
 
   set csvfile [open $rigscsv r]
   while {![eof $csvfile]} {
-    set line [encoding convertfrom utf-8 [gets $csvfile]]
+
+    set line [gets $csvfile]
+
+    if { ( [string match -nocase "*potato*" $line] == 0) } {
+      # this is a hack to work around tcl's lack of support for unicode above
+      # U+FFFF.
+      set line [encoding convertfrom utf-8 $line]
+    }
 
     if {[regexp -- {^#} $line]} {
       continue;
