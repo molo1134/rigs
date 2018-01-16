@@ -81,6 +81,8 @@ th-?d74,Kenwood,TH-D74A,,,"2m/220/440 FM and D-STAR HT; APRS, GPS, TNC; full dup
 tm-?255,Kenwood,TM-255A/E,,,"2m CW/SSB/FM transceiver; 40W; remote head; 1995"
 tm-?271a?,Kenwood,TM-271A,,,"2m FM mobile; 60W; WX alert; wide/nrrw deviation; 2003"
 tm-?321,Kenwood,TM-321A,,,"220 MHz FM mobile, 25W, 1987"
+tm-?621a?,Kenwood,TM-621A,,,"2m/1.25m FM mobile; 45W 2m, 25W 1.25m; dual RX; full duplex; c. 1989"
+tm-?721a?,Kenwood,TM-721A,,,"2m/70cm FM mobile; 45W 2m, 35W 70cm; dual RX; full duplex; c. 1989"
 tm-?d700[ae],Kenwood,TM-D700A/E,,,"2m/70cm, FM, 50/35W, 2000, Built-in TNC 1K2/9K6, APRS. Dual RX"
 tm-?d710[ae],Kenwood,TM-D710A/E,,,"2m/70cm, FM, 50W, 2007, Built-in TNC 1K2/9K6, APRS. Dual RX"
 tm-?d710g[ae],Kenwood,TM-D710GA/E,,,"2m/70cm, FM, 50W, 2013, Built-in TNC 1K2/9K6, APRS. Dual RX"
