@@ -1,6 +1,6 @@
 # !rig irc command -- 2-clause BSD license.
 #
-# Copyright 2018 /u/molo1134. All rights reserved.
+# Copyright (c) 2018 /u/molo1134. All rights reserved.
 
 bind pub - !rig rig_pub
 bind msg - !rig rig_msg
