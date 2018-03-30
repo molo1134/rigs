@@ -1,0 +1,48 @@
+#!/usr/bin/perl
+
+use utf8;
+use feature 'unicode_strings';
+binmode(STDOUT, ":utf8");
+
+use File::Basename;
+use Cwd 'realpath';
+
+if ($#ARGV < 0 || length($ARGV[0]) == 0) {
+  print "usage: $0 <rig>\n";
+  exit 1;
+}
+
+my $term = $ARGV[0];
+
+$term =~ s/^\s*//;
+$term =~ s/\s*$//;
+
+my $rigscsv = dirname(realpath(__FILE__)) . "/rigs.csv";
+
+open(RIGSCSV, "<", $rigscsv) or die ("unable to open rigs.csv file: $rigscsv ");
+binmode(RIGSCSV, ":utf8");
+my $match = 0;
+my ($rxp, $manuf, $model, $link, $manualpdf);
+while (<RIGSCSV>) {
+  chomp;
+  next if m/^#/;
+  next if m/^\s*$/;
+
+  ($rxp, $manuf, $model, $link, $manualpdf, undef) = split /,/;
+  $desc = $_;
+  $desc =~ s/^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,\"([^\"]*)\"$/$1/;
+  if ($model =~ m/.*$term.*/) {
+    $match = 1;
+    last;
+  }
+  if ($term =~ m/$rxp/) {
+    $match = 1;
+    last;
+  }
+}
+close(RIGSCSV);
+
+print "$manuf $model: $desc\n" if $match == 1;
+print "not found.\n" if $match == 0;
+exit 0;
+
