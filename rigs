@@ -31,11 +31,11 @@ while (<RIGSCSV>) {
   ($rxp, $manuf, $model, $link, $manualpdf, undef) = split /,/;
   $desc = $_;
   $desc =~ s/^[^,]*,[^,]*,[^,]*,[^,]*,[^,]*,\"([^\"]*)\"$/$1/;
-  if ($model =~ m/.*$term.*/) {
+  if ($model =~ m/.*$term.*/i) {
     $match = 1;
     last;
   }
-  if ($term =~ m/$rxp/) {
+  if ($term =~ m/$rxp/i) {
     $match = 1;
     last;
   }
