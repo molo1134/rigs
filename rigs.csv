@@ -181,6 +181,8 @@ ft-?818,Yaesu,FT-818,,,"160m-10m,6m,2m,440; CW/SSB/AM/FM; portable; QRP 6W ext/?
 ft-?857,Yaesu,FT-857D,,,"160m-10m, 6m/2m/440; CW/SSB/AM/FM; mobile; AF DSP; 100W; 2000"
 ft-?891,Yaesu,FT-891,,,"160-6m, CW/SSB/AM/FM; mobile; 100W; IF DSP; USB CAT, but no USB audio; 2016"
 ft-?897,Yaesu,FT-897D,,,"160m-10m, 6m/2m/440; CW/SSB/AM/FM; lugabble; AF DSP; opt. batt, or power supply; opt. bolt-on tuner; 100W; 2000"
+ft-?991$,Yaesu,FT-991,,,"160-6m, 2m/70cm; CW/SSB/AM/FM/RTTY/PSK/C4FM; 100W HF/6m, 50W 2m/70cm; IF DSP; USB; slow bandscope; 2015"
+ft-?991a$,Yaesu,FT-991A,,,"160-6m, 2m/70cm; CW/SSB/AM/FM/RTTY/PSK/C4FM; 100W HF/6m, 50W 2m/70cm; IF DSP; USB; real-time spectrum scope and waterfall; 2016"
 ft-?dx[ -]?101d?,Yaesu,FT DX 101D,,,"160-6m; SDR/waterfall; dual RX; future"
 ft-?dx[ -]?1200,Yaesu,FT DX 1200,,,"160-6m; CW/SSB/FSK/PSK/FM/AM; IF DSP; tuner; opt. FFT, filter, recorder boards; 100W; 2013"
 vx-?5,Yaesu,VX-5R,,,"6m/2m/440 FM HT; dual RX; wide RX, AM RX; 5W 6m/2m, 4.5W 440; 1999"
