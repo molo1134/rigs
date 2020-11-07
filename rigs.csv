@@ -198,7 +198,7 @@ ft-?897,Yaesu,FT-897D,,,"160m-10m, 6m/2m/440; CW/SSB/AM/FM; lugabble; AF DSP; op
 ft-?990,Yaesu,FT-990,,,"160-10m, CW/SSB/AM/FM/RTTY/Pkt; CW filter; keyer; AC; 100W; c.1991"
 ft-?991$,Yaesu,FT-991,,,"160-6m, 2m/70cm; CW/SSB/AM/FM/RTTY/PSK/C4FM; 100W HF/6m, 50W 2m/70cm; IF DSP; USB; slow bandscope; 2015"
 ft-?991a$,Yaesu,FT-991A,,,"160-6m, 2m/70cm; CW/SSB/AM/FM/RTTY/PSK/C4FM; 100W HF/6m, 50W 2m/70cm; IF DSP; USB; real-time spectrum scope and waterfall; 2016"
-ft-?dx[ -]?10$,Yaesu,FTDX10,,,"160-6m; CW/SSB/AM/FM/FSK/PSK; 100W; superhet; IF DSP; DDS LO; '3D' waterfall; 2020"
+ft-?dx[ -]?10$,Yaesu,FTDX10,,,"160-6m; CW/SSB/AM/FM/FSK/PSK; 100W; superhet; hybrid SDR; IF DSP; DDS LO; '3D' waterfall; opt. ethernet; 2020"
 ft-?dx[ -]?101d?,Yaesu,FT DX 101D,,,"160-6m; SDR/waterfall; dual RX; future"
 ft-?dx[ -]?1200,Yaesu,FT DX 1200,,,"160-6m; CW/SSB/FSK/PSK/FM/AM; IF DSP; tuner; opt. FFT, filter, recorder boards; 100W; 2013"
 vx-?2,Yaesu,VX-2R,,,"2m/440 FM miniature HT; dual RX; wide RX, AM RX; 1.5/1W 2m/440; 2003"
