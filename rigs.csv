@@ -79,7 +79,7 @@ ic-?1275,Icom,IC-1275A,,,"1.2 GHz CW/SSB/FM; 10W; c.1987; optional TV-1275 ATV a
 ic-?2100,Icom,IC-2100H,,,"2m FM mobile, 55W; 1997"
 ic-?2200,Icom,IC-2200H,,,"2m FM mobile, d-star optional, 65W; 2004; first d-star hardware"
 ic-?2300,Icom,IC-2300H,,,"2m FM mobile, 65W; 2012"
-ic-?7000,Icom,IC-7000,http://www.icomamerica.com/en/products/amateur/hf/7000/,,"160-2m,440, all-mode, 100W; remote head; 2005"
+ic-?7000,Icom,IC-7000,http://www.icomamerica.com/en/products/amateur/hf/7000/,,"160-2m,440, all-mode, 100W HF+6, 50W 2m, 35W 440; remote head; NTSC video out; 2005"
 ic-?7100,Icom,IC-7100,http://www.icomamerica.com/en/products/amateur/hf/7100/,,"160-2m,4m,440, all-mode+D-star, 100W; remote head; touch screen; USB iface; 2014"
 ic-?7200,Icom,IC-7200,http://www.icomamerica.com/en/products/amateur/hf/7200/,,"160-10m,6m, CW/SSB/FSK/AM 100W; USB iface; 2009"
 ic-?7300,Icom,IC-7300,http://www.icomamerica.com/en/products/amateur/hf/7300/,,"160-4m CW/SSB/AM/FM/RTTY; direct sampling SDR; tuner; 4m @ 50W; 2015"
