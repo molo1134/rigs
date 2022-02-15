@@ -209,6 +209,7 @@ ft-?991a$,Yaesu,FT-991A,,,"160-6m, 2m/70cm; CW/SSB/AM/FM/RTTY/PSK/C4FM; 100W HF/
 ft-?dx[ -]?10$,Yaesu,FTDX10,,,"160-6m; CW/SSB/AM/FM/FSK/PSK; 100W; superhet; hybrid SDR; IF DSP; DDS LO; '3D' waterfall; opt. ethernet; 2020"
 ft-?dx[ -]?101d?,Yaesu,FT DX 101D,,,"160-6m; SDR/waterfall; dual RX; future"
 ft-?dx[ -]?1200,Yaesu,FT DX 1200,,,"160-6m; CW/SSB/FSK/PSK/FM/AM; IF DSP; tuner; opt. FFT, filter, recorder boards; 100W; 2013"
+ftm-?200d?r?,Yaesu,FTM-200DR,,,"2m/440; FM/C4FM; APRS; GPS; µSD recording; 50W; 2022"
 vx-?2,Yaesu,VX-2R,,,"2m/440 FM miniature HT; dual RX; wide RX, AM RX; 1.5/1W 2m/440; 2003"
 vx-?5,Yaesu,VX-5R,,,"6m/2m/440 FM HT; dual RX; wide RX, AM RX; 5W 6m/2m, 4.5W 440; 1999"
 vx-?6,Yaesu,VX-6R,,,"2m/220/440 FM HT; dual RX; wide RX, AM RX; 5W 2m/440, 1.5W 220; 2005"
