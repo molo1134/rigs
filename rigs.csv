@@ -198,6 +198,7 @@ ft-?450d,Yaesu,FT-450D,,,"160-6m SSB/CW/AM/FM/FSK; 100W; tuner; IF DSP; keyer; r
 ft-?690$,Yaesu,FT-690R,,,"6m FM/CW/SSB, 2.5W;"
 ft-?690rii,Yaesu,FT-690RII,,,"6m FM/CW/SSB, 2.5W or 25W with optional amp;"
 ft-?707,Yaesu,FT-707,,,"80m-10m w/ WARC; CW/SSB/AM; 100W; c.1980"
+ft-?710,Yaesu,FT-710,,,"160-4m; 100W; SDR/DSP; DDS LO; bandpass filters; 32-bit DSP; 2022"
 ft-?726,Yaesu,FT-726R,,,"2m CW/SSB/FM, 10W; optional 10m,6m,440; base; 1983"
 ft-?736,Yaesu,FT-736R,,,"2m/440 CW/SSB/FM; optional 6m, 220, 1.2GHz; base; 25W, 6m@15W, 1.2GHz@10W; CAT; 1987"
 ft-?757(gx)?$,Yaesu,FT-757GX,https://rigreference.com/rigs/4339-yaesu-ft-757gx,http://www.foxtango.org/ft-library/FT-Library/Eighties/FT-757GX.pdf,"160m-10m w/ WARC; Gen. coverage RX; CW/SSB/FM/AM; IF Shift; elec.keyer; squelch; noise blanker; 1983"
