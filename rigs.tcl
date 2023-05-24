@@ -15,13 +15,7 @@ proc rig_msg {nick uhand handle input} {
   set output [split $output "\n"]
 
   foreach line $output {
-    if { [string match -nocase "*potato*" $line] } {
-      # this is a hack to work around tcl's lack of support for unicode above
-      # U+FFFF.
-      putmsg $nick "$line"
-    } else {
-      putmsg $nick [encoding convertto utf-8 "$line"]
-    }
+    putmsg $nick "$line"
   }
 }
 
@@ -33,13 +27,7 @@ proc rig_pub { nick host hand chan text } {
   set output [split $output "\n"]
 
   foreach line $output {
-    if { [string match -nocase "*potato*" $line] } {
-      # this is a hack to work around tcl's lack of support for unicode above
-      # U+FFFF.
-      putchan $chan "$line"
-    } else {
-      putchan $chan [encoding convertto utf-8 "$line"]
-    }
+    putchan $chan "$line"
   }
 }
 
