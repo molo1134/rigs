@@ -176,6 +176,7 @@ ts-?2000,Kenwood,TS-2000,,,"160-10m, 6m/2m/440, 1.2GHz (option); CW/SSB/AM/FM/FS
 qcx$,QRP-Labs,QCX,https://www.qrp-labs.com/qcx.html,https://www.qrp-labs.com/images/qcxp/firmware/1.07/OpMan107.pdf,"Single-band kit 80/60/40/30/20/17m; CW/WSPR; 5W; 288g (10.2 oz); 200Hz CW filter; electronic keyer; CW decoder; RIT; CAT; 2017"
 (qcx[- ]?)?mini$,QRP-Labs,QCX Mini,https://www.qrp-labs.com/qcxmini.html,https://www.qrp-labs.com/images/qcxp/firmware/1.07/OpMan107.pdf,"Single-band kit 80/60/40/30/20/17m; CW/WSPR; 5W; 202g (7.1 oz); 200Hz CW filter; electronic keyer; CW decoder; RIT; CAT; 2020"
 (qcx[- ]?)?(plus|\+)$,QRP-Labs,QCX+,https://www.qrp-labs.com/qcxp.html,https://www.qrp-labs.com/images/qcxp/firmware/1.07/OpMan107.pdf,"Single-band kit 80/60/40/30/20/17m; CW/WSPR; 5W; 559g (19.7 oz); 200Hz CW filter; electronic keyer; CW decoder; RIT; CAT; 2020"
+qmx$,QRP-Labs,QMX,,,"80/60/40/30/20m kit; CW/Digital; SDR; 24-bit 48kHz USB audio; CAT; DDS VFO; TCXO; 5W; 2023"
 htx-?10$,Radioshack,HTX-10,,,"10m only mobile, SSB/AM/FM 25w PEP/7W AM"
 htx-?100,Radioshack,HTX-100,,,"10m only mobile, SSB/CW, 25w PEP"
 htx-?202,Radioshack,HTX-202,,,"2m only HT, 6w FM, CTCSS"
